@@ -1,5 +1,5 @@
 # web-and-port-fuzzer
-scan ports or fuzz web endpoints.
+scan ports or fuzz web endpoints. Written while training at SAU online class.
 
 ## usage
 
