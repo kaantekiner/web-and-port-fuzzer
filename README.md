@@ -1,18 +1,18 @@
 # web-and-port-fuzzer
 Scan ports or fuzz web endpoints. Written while training at SAU online class.
 
-## usage
+## Usage
 
-##### single port scanner
+##### Single port scanner
 ```
 scanner.py test.com 80
 ```
 
-##### full port scanner
+##### Full port scanner
 ```
 scanner.py test.com all
 ```
-##### web fuzzer
+##### Web fuzzer
 ```
 scanner.py test.com 80 /testdir
 ```
