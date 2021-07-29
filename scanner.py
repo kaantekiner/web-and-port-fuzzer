@@ -98,23 +98,3 @@ except Exception as err2:
     print("bir hata oldu: " + str(err2))
     sys.exit(0)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
