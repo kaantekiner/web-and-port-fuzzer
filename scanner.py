@@ -2,6 +2,12 @@ import socket
 import sys
 import requests
 
+
+# test for sec tool. 
+# test 3 for sec tool. 
+print("this is test 3")
+
+
 # test for sec tool. 
 # test 2 for sec tool. 
 print("this is test 2")
@@ -12,6 +18,14 @@ def sql(req)
     sql = get_param(param_from_user)
     res = sql.execute().fetch()
     return res
+
+
+
+################
+
+
+
+
 
 def scan(is_all):
     global timeout
