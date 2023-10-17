@@ -3,6 +3,9 @@ import sys
 import requests
 
 # test for sec tool. 
+# test 2 for sec tool. 
+print("this is test 2")
+
 param_from_user = promt("test")
 def sql(req)
     sql = "select * from users where username = &s"
