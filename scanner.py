@@ -13,7 +13,7 @@ print("this is test 3")
 print("this is test 2")
 
 param_from_user = promt("test")
-def sql(req)
+def sql(req):
     sql = "select * from users where username = &s"
     sql = get_param(param_from_user)
     res = sql.execute().fetch()
