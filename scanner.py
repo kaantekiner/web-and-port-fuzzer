@@ -2,11 +2,19 @@ import socket
 import sys
 import requests
 
+# test for sec tool. 
+param_from_user = promt("test")
+def sql(req)
+    sql = "select * from users where username = &s"
+    sql = get_param(param_from_user)
+    res = sql.execute().fetch()
+    return res
+
 def scan(is_all):
     global timeout
     print("timeout: " + str(timeout))
     if is_all:
-        print("scannig ports 1-65535")
+        print("scannig ports 1-65535.")
         for port_local in range(1, 65535):
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.settimeout(timeout)
