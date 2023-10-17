@@ -7,6 +7,8 @@ import requests
 # test for sec tool. 
 # test 3 for sec tool. 
 print("this is test 4")
+password = "123456secretkey"
+api_key = "99012309123978123786123" # its secret, fyi. 
 
 
 # test for sec tool. 
