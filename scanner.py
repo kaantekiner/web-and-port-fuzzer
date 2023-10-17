@@ -11,6 +11,8 @@ password = "123456secretkey"
 api_key = "99012309123978123786123" # its secret, fyi. 
 
 
+
+
 # test for sec tool. 
 # test 3 for sec tool. 
 print("this is test 3")
@@ -102,8 +104,13 @@ try:
         #  print(full_path)
         print("importing wordlist....")
 
-        with open("/Users/kaantekiner/Desktop/VmShare/wordlists/web_common.txt") as f:
-            content = f.readlines()
+
+        #with open("/Users/kaantekiner/Desktop/VmShare/wordlists/web_common.txt") as f:
+        get_from_user = input("enter wordlist path: ")
+        # get from user and search in os, if found, show it in terminal first.
+        with open(get_from_user) as f:
+            content = f.readlines()        
+        print("content: " + str(content))
         content = [x.strip() for x in content]
         # print(content)
         print("wordlist ok!!!!")
